@@ -28,7 +28,7 @@
             android:fontFamily="sans-serif-medium"
             android:text="sunny"
             android:textColor="#FFFFFF"
-            android:textSize="16sp"
+            android:textSize="10sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvDate"
@@ -58,8 +58,8 @@
 
         <TextView
             android:id="@+id/tvTemp"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
+            android:layout_width="121dp"
+            android:layout_height="45dp"
             android:fontFamily="sans-serif-medium"
             android:gravity="center"
             android:text="20 C / 2 C"
@@ -67,6 +67,7 @@
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/imageView"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toEndOf="@+id/tvDate"
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>

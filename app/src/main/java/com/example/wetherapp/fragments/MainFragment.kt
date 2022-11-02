@@ -47,8 +47,7 @@ class MainFragment : Fragment() {
     )
     private val tlist = listOf(
         "Hours",
-        "Days",
-        ""
+        "Days"
     )
     private lateinit var pLauncher: ActivityResultLauncher<String>
     private lateinit var binding: FragmentMainBinding
